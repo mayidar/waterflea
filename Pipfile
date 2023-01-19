@@ -4,8 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-fastapi = {extras = ["all"], version = "*"}
-uvicorn = {extras = ["standard"], version = "*"}
+typer = {extras = ["all"], version = "*"}
+biopython = "*"
 
 [dev-packages]
 
